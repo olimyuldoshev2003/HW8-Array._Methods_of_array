@@ -269,6 +269,7 @@ array.indexOf(item, start);
 ```js
 const names = ["Florin", "Ivan", "Liam"];
 const index = names.indexOf("Ivan");
+console.log(index);
 ```
 
 <h2 style="color:red;">Output:</h2>
@@ -316,6 +317,7 @@ array.slice(start, end);
 ```js
 const numbers = [1, 2, 3, 4, 5];
 const numbers2 = numbers.slice(3);
+console.log(numbers2);
 ```
 
 <h2 style="color:red;">Output:</h2>
@@ -409,6 +411,8 @@ const numbers = [1, 2, 3, 4, 5];
 const secondNumbers = numbers.map((value, index, array) => {
   return value * 2;
 });
+
+console.log(secondNumbers);
 ```
 
 <h2 style="color:red;">Output:</h2>
