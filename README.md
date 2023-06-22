@@ -375,7 +375,7 @@ console.log(numbers);
 <h2 style="color:red;">Output:</h2>
 
 ```js
-[1, 2, 4, 5];
+[1, 2];
 ```
 
 <h2 style="color:red;">Example 2:</h2>

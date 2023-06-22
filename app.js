@@ -1,7 +1,7 @@
-// let arr = [1, 2, 3, 4, 5];
-// let arr2 = arr.indexOf(2);
-// console.log(arr2);
+// const numbers = [12, 23, 345, 21, 12, 11, 321, 15, 97];
+// let newNumbers = numbers.toSorted((a, b) => a - b);
+// console.log(newNumbers);
 
-let arr = [1, 2, 3, 4, 5];
-arr.indexOf(2);
-console.log(arr);
+const numbers = [1, 2, 3, 4, 5];
+const numbers2 = numbers.slice(3);
+console.log(numbers);
