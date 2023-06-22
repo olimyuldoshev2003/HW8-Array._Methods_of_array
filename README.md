@@ -117,7 +117,7 @@ In JS we have many types of methods of array like methods of string, but the mai
 
 > toSorted()
 
-## ARRAY METHOD push()
+## Array Method push()
 
 The push() method adds one or more elements to the end of an array and returns the
 new length of the array.
@@ -157,7 +157,7 @@ console.log(count);
 6;
 ```
 
-## ARRAY METHOD pop()
+## Array Method pop()
 
 The pop() method removes the last element from an array and returns that element.
 This method changes the length of the array.
@@ -182,7 +182,7 @@ console.log(arr);
 [1, 2, 3, 4];
 ```
 
-## ARRAY METHOD unshift()
+## Array Method unshift()
 
 The unshift() method adds one or more elements to the beginning of an array and
 returns the new length of the array.
@@ -207,7 +207,7 @@ console.log(arr);
 [0, 1, 2, 3, 4, 5];
 ```
 
-## ARRAY METHOD shift()
+## Array Method shift()
 
 The shift() method removes the first element from an array and returns that removed item. This method changes the length of the array.
 
@@ -231,7 +231,7 @@ console.log(arr);
 ["b"];
 ```
 
-## ARRAY METHOD toString()
+## Array Method toString()
 
 The toString() method returns a string representing the specified array and its
 elements.
@@ -254,7 +254,7 @@ console.log(number.toString());
 "1000,2000,3000";
 ```
 
-## ARRAY METHOD indexOf()
+## Array Method indexOf()
 
 The indexOf() method returns the first index (position) of a specified value. The indexOf() method returns -1 if the value is not found. The indexOf() method starts at a specified index and searches from left to right. By default the search starts at the first element and ends at the last. Negative start values counts from the last element (but still searches from left to right)
 
@@ -277,7 +277,7 @@ const index = names.indexOf("Ivan");
 1;
 ```
 
-## ARRAY METHOD includes()
+## Array Method includes()
 
 The includes() method returns true if an array contains a specified value. The includes() method returns false if the value is not found. The includes() method is case sensitive.
 
@@ -301,7 +301,7 @@ console.log(result);
 true;
 ```
 
-## ARRAY METHOD slice()
+## Array Method slice()
 
 The slice() method returns selected elements in an array, as a new array. The slice() method selects from a given start, up to a (not inclusive) given end. The slice() method does not change the original array.
 
@@ -324,7 +324,7 @@ const numbers2 = numbers.slice(3);
 [4, 5];
 ```
 
-## ARRAY METHOD concat()
+## Array Method concat()
 
 The concat() method concatenates (joins) two or more arrays. The concat() method returns a new array, containing the joined arrays. The concat() method does not change the existing arrays.
 
@@ -351,7 +351,7 @@ console.log(c);
 [1, 2, 3, 4, 5, 6, 7, 8, 9];
 ```
 
-## ARRAY METHOD splice()
+## Array Method splice()
 
 The splice() method adds and/or removes array elements. The splice() method overwrites the original array.
 It also changes the length of an array by removing items from it. If you don't specify any.
@@ -392,7 +392,7 @@ console.log(numbers);
 
 # JS ARRAY METHOD CALLBACK
 
-## ARRAY METHOD map()
+## Array Method map()
 
 map() creates a new array from calling a function for every array element. map() calls a function once for each element in an array. map() does not execute the function for empty elements. map() does not change the original array.
 
@@ -417,7 +417,7 @@ const secondNumbers = numbers.map((value, index, array) => {
 [2, 4, 6, 8, 10]
 ```
 
-## ARRAY METHOD forEach()
+## Array Method forEach()
 
 The forEach() method calls a function for each element in an array. The forEach() method is not executed for empty elements.
 
